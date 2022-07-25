@@ -16,7 +16,7 @@ const RetirementStrategy = () => {
 
   return (
     <div className="strategy-card">
-      <h2>Retirement Strategy</h2>
+      <h2 style={{ fontFamily: "Bree serif" }}>Retirement Strategy</h2>
       <p className="mt-2">Employee Contribution</p>
       <div className="d-flex-row">
         <Slider
@@ -40,13 +40,13 @@ const RetirementStrategy = () => {
         />
         <span>{age}</span>
       </div>
-      <Divider />
-      <div className="d-flex-row justify-content-between">
+      <Divider style={{ margin: "16px 0" }} />
+      <div className="d-flex-row justify-content-between mt-2">
         <p>Employer Contribution</p>
         <p>8.4%</p>
       </div>
       <div className="d-flex-row justify-content-between">
-        <p>Interest Rate</p>
+        <p className="mt-1">Interest Rate</p>
         <p>5%</p>
       </div>
       <Button
