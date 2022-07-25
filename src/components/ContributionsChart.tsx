@@ -35,7 +35,7 @@ const ContributionsChart = () => {
         <Tooltip />
         <Legend />
         <CartesianGrid strokeDasharray="1 1" />
-        <XAxis dataKey="years" label={{ value: "years", angle: 0 }} />
+        <XAxis dataKey="years" />
         <YAxis
           label={{ value: "in USD", angle: -90, position: "insideLeft" }}
         />
