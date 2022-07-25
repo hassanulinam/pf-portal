@@ -45,8 +45,8 @@ const RetirementStrategy = () => {
         <p>Employer Contribution</p>
         <p>8.4%</p>
       </div>
-      <div className="d-flex-row justify-content-between">
-        <p className="mt-1">Interest Rate</p>
+      <div className="d-flex-row justify-content-between mt-1">
+        <p>Interest Rate</p>
         <p>5%</p>
       </div>
       <Button
