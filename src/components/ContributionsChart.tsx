@@ -34,7 +34,7 @@ const ContributionsChart = () => {
       >
         <Tooltip />
         <Legend />
-        <CartesianGrid strokeDasharray="3 3" />
+        <CartesianGrid strokeDasharray="1 1" />
         <XAxis dataKey="years" />
         <YAxis />
         <Bar dataKey="employer" stackId="a" fill="#0800a3" />
