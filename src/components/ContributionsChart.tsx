@@ -36,7 +36,7 @@ const ContributionsChart = () => {
         <Legend />
         <CartesianGrid strokeDasharray="1 1" />
         <XAxis dataKey="years" />
-        <YAxis />
+        <YAxis label="$" />
         <Bar dataKey="employer" stackId="a" fill="#0800a3" />
         <Bar dataKey="employee" stackId="a" fill="#4734f8" />
         <Bar dataKey="totalInterest" stackId="a" fill="#82abf9" />
