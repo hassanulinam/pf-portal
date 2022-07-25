@@ -54,7 +54,7 @@ const RetirementStrategy = () => {
           backgroundColor: "#4935ff",
           color: "white",
           textTransform: "none",
-          marginTop: 16,
+          marginTop: 32,
           padding: "8px 24px",
           width: "100%",
           textAlign: "center",
